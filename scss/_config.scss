@@ -1,0 +1,10 @@
+$body-color : #4b4b4b;
+$nav-color : #7158e2;
+$text-color : #fff;
+
+@mixin flexbox($direction) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: $direction;
+}

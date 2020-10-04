@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #4b4b4b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+}
+
+body .container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  -webkit-transition: .4s ease;
+  transition: .4s ease;
+  color: #fff;
+}
+
+body .container h1 {
+  font-family: sans-serif;
+  font-size: 45px;
+  font-weight: 800;
+  text-align: center;
+}
+
+body .container p {
+  padding: 40px 190px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+@media (max-width: 600px) {
+  body .container p {
+    padding: 20px;
+  }
+}
+
+body .container .toggle {
+  width: 45px;
+  margin: 10px;
+  height: 45px;
+  background: #7158e2;
+  border-radius: 5px;
+  z-index: 1;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body .container .toggle button {
+  background: #7158e2;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 27px;
+  cursor: pointer;
+}
+
+header {
+  width: 250px;
+  height: 100vh;
+  background: #7158e2;
+  -webkit-transform: translateX(-250px);
+          transform: translateX(-250px);
+  -webkit-transition: .4s ease;
+  transition: .4s ease;
+}
+
+header .logo {
+  margin: 25px 0;
+  text-align: center;
+  width: 100%;
+}
+
+header .logo h1 {
+  font-family: sans-serif;
+  color: #fff;
+  font-weight: bold;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+header nav .navlink {
+  color: #fff;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: sans-serif;
+  margin: 20px 0;
+}
+
+header nav .navlink:hover {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=style.css.map */
